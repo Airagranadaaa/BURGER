@@ -8,6 +8,13 @@ body {
   font-size: 1.6rem;
   line-height: 1.4;
   color: $clr-dark;
+  transition: .5s ease;
+  
+}
+
+body.show{
+  transform: translateX(-350px
+  );
 }
 
 a {
@@ -20,9 +27,9 @@ p {
 }
 
 
-// h1, h2, h3, h4, h5, h6{
-//   font-weight: bold;
-//   span{
-//     color: $clr-primary;
-//   }
-// }
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+  span{
+    color: $clr-primary;
+  }
+}
